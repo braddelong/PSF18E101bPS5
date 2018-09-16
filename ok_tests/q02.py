@@ -6,7 +6,7 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> np.isclose(KoverY_50_alphaquarter, 4.93, atol=0.01) 
+          >>> np.isclose(YoverL_50_alphaquarter, 3.4, atol=0.1) 
           True
           """,
           'hidden': False,
@@ -14,7 +14,7 @@ test = {
         },
         {
           'code': r"""
-          >>> np.isclose(KoverY_50_alphathird, 4.90, atol=0.01)
+          >>> np.isclose(YoverL_50_alphathird, 4.3, atol=0.1)
           True
           """,
           'hidden': False,
@@ -22,7 +22,7 @@ test = {
         },
         {
           'code': r"""
-          >>> np.isclose(KoverY_50_alphahalf, 4.83, atol=0.01)
+          >>> np.isclose(YoverL_50_alphahalf, 8.8, atol=0.1)
           True
           """,
           'hidden': False,
@@ -30,7 +30,7 @@ test = {
         },
         {
           'code': r"""
-          >>> np.isclose(KoverY_50_alphatwothirds, 4.69, atol=0.01)
+          >>> np.isclose(YoverL_50_alphatwothirds, 35.8, atol=0.1)
           True
           """,
           'hidden': False,
@@ -38,7 +38,7 @@ test = {
         },
         {
           'code': r"""
-          >>> np.isclose(KoverY_50_alphathreequarters, 4.58, atol=0.1)
+          >>> np.isclose(YoverL_50_alphathreequarters, 145.2, atol=0.1)
           True
           """,
           'hidden': False,
