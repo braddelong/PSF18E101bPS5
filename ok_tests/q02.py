@@ -22,7 +22,7 @@ test = {
         },
         {
           'code': r"""
-          >>> np.isclose(YoverL_50_alphahalf, 11.0, atol=0.1)
+          >>> np.isclose(YoverL_50_alphahalf, 10.3, atol=0.1)
           True
           """,
           'hidden': False,
